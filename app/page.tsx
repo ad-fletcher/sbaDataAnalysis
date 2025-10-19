@@ -51,10 +51,10 @@ function ChatContent() {
               <div className="max-w-md mx-auto mt-8 p-4 bg-white dark:bg-zinc-900 rounded-lg border border-zinc-200 dark:border-zinc-800">
                 <p className="text-sm font-medium mb-2">Try asking:</p>
                 <ul className="text-sm text-muted-foreground space-y-2 text-left">
-                  <li>• &ldquo;Show me steel companies in Texas&rdquo;</li>
+                  <li>• &ldquo;Analyze Steel Companies in Texas&rdquo;</li>
                   <li>• &ldquo;Analyze restaurants in San Francisco&rdquo;</li>
-                  <li>• &ldquo;What are the top banks for construction loans?&rdquo;</li>
-                  <li>• &ldquo;What&rsquo;s the competitive landscape in Texas?&rdquo;</li>
+                  <li>• &ldquo;What are the top banks for construction loans in the zip code 78256?&rdquo;</li>
+                  <li>• &ldquo;What&rsquo;s the competitive landscape for flagpole companies in Texas?&rdquo;</li>
                 </ul>
               </div>
             </div>
