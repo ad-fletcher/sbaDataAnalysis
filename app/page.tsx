@@ -42,9 +42,7 @@ function ChatContent() {
         <div className="container mx-auto px-4 py-8 max-w-5xl">
           {messages.length === 0 && (
             <div className="text-center py-16 space-y-4">
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                Welcome to AI Financial Analyst
-              </h2>
+
               <p className="text-muted-foreground text-lg">
                 Ask me about companies, industries, or SBA loan data
               </p>
