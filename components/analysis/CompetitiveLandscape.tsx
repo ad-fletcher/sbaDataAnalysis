@@ -234,7 +234,7 @@ export const CompetitiveLandscape = ({ data }: CompetitiveLandscapeProps) => {
           
           <div className="grid grid-cols-3 gap-4 text-sm">
             <div>
-              <p className="text-muted-foreground mb-1">Total Establishments:</p>
+              <p className="text-muted-foreground mb-1">Total Establishments(includes establishments owned by same firm):</p>
               <p className="text-xl font-bold text-blue-600">
                 {workforce_analysis.total_establishments.toLocaleString()}
               </p>
@@ -246,7 +246,7 @@ export const CompetitiveLandscape = ({ data }: CompetitiveLandscapeProps) => {
               </p>
             </div>
             <div>
-              <p className="text-muted-foreground mb-1">Avg Employees/Firm:</p>
+              <p className="text-muted-foreground mb-1">Avg Employees/Establisment:</p>
               <p className="text-xl font-bold text-blue-600">
                 {formatNumber(workforce_analysis.avg_employees_per_establishment)}
               </p>
@@ -343,7 +343,7 @@ export const CompetitiveLandscape = ({ data }: CompetitiveLandscapeProps) => {
 
               <div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">HHI Score:</span>
+                  <span className="text-sm text-muted-foreground">HHI Score(1-10000):</span>
                   <span className="text-lg font-bold text-purple-600">
                     {formatNumber(market_concentration.estimated_hhi, 0)}
                   </span>
@@ -416,7 +416,7 @@ export const CompetitiveLandscape = ({ data }: CompetitiveLandscapeProps) => {
 
               <div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Weighted Avg Firm Size:</span>
+                  <span className="text-sm text-muted-foreground">Weighted Avg Establishment Size:</span>
                   <span className="text-lg font-bold text-orange-600">
                     {formatNumber(entry_barriers.weighted_avg_firm_size)} employees
                   </span>
